@@ -1,1 +1,3 @@
-Versi Tampilan Awal
+#Kuy!ripik
+
+Versi Tampilan Awal 0.1
