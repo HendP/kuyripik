@@ -1,0 +1,450 @@
+/*-- Body Reset --*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x : hidden;
+  font-family: 'Montserrat', sans-serif;
+  color      : #616971;
+}
+
+/*============= Navigation =============*/
+
+.navbar {
+  min-height      : 100px;
+  background-color: white;
+}
+
+.navbar-nav .nav-item {
+  font-size  : 12px;
+  padding-top: 10px;
+}
+
+.nav-border {
+  margin-top   : 13px;
+  width        : 100px;
+  height       : 30px;
+  border       : 1px solid #333333;
+  border-radius: 15px;
+}
+
+.nav-item .product {
+  margin-top : -12px;
+  margin-left: 8px;
+}
+
+.nav-item .hotline {
+  padding-top: 4px;
+  line-height: 1;
+  margin-left: 20px;
+}
+
+.nav-item .follow-ig {
+  padding-top: 4px;
+  line-height: 1;
+  margin-left: 20px;
+}
+
+.nav-item .follow-ig img {
+  width: 15px;
+}
+
+.img-logo {
+  width      : 60px;
+  margin-left: -85px;
+}
+
+.hidden-logo {
+  display: none;
+}
+
+.login {
+  color: #333333;
+}
+
+.login:hover {
+  color          : #333333;
+  text-decoration: none;
+}
+
+/*============= Banner =============*/
+
+.banner {
+  position  : relative;
+  margin-top: 6rem;
+}
+
+.text-block {
+  position     : absolute;
+  top          : 60px;
+  left         : 30px;
+  padding-left : 20px;
+  padding-right: 20px;
+}
+
+.banner .judul {
+  font-size: 57px;
+  color    : #343434;
+}
+
+.banner .desc {
+  font-size: 1rem;
+  color    : #343434;
+}
+
+/*============= Daftar Keripik =============*/
+
+
+.keripik-1 {
+  background-color: #F9DCC4;
+  color           : #343434;
+}
+
+.keripik-2 {
+  background-color: #457B9D;
+  color           : white;
+}
+
+.keripik-3 {
+  background-color: #8ECAE6;
+  color           : white;
+}
+
+.keripik-4 {
+  background-color: #FED0BB;
+  color           : #343434;
+}
+
+.judul-keripik-1 {
+  padding-top   : 1rem;
+  padding-left  : 2rem;
+  font-size     : 3.2rem;
+  text-transform: uppercase;
+}
+
+.deskripsi-keripik-1 {
+  padding-top  : 1rem;
+  padding-left : 2rem;
+  padding-right: 4rem;
+  font-size    : .8rem;
+  line-height  : 1.2rem;
+  text-align   : justify;
+}
+
+.judul-keripik-2 {
+  padding-top   : 1rem;
+  padding-right : 2rem;
+  font-size     : 3.2rem;
+  text-transform: uppercase;
+}
+
+.deskripsi-keripik-2 {
+  padding-top  : 1rem;
+  padding-right: 2rem;
+  padding-left : 4rem;
+  font-size    : .8rem;
+  line-height  : 1.2rem;
+  text-align   : justify;
+}
+
+/*============= FOOTER =============*/
+
+footer {
+  background-color: #383838;
+  padding         : 1rem 2rem 3rem;
+}
+
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+
+/* Maps */
+.maps {
+  width        : 500px;
+  height       : 250px;
+  border       : 0;
+  border-radius: 5px;
+}
+
+footer p {
+  font-size: .8rem;
+}
+
+.fakeimg {
+  height    : 200px;
+  background: #8ECAE6;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  background-color: #457B9D;
+  width           : 50px;
+  height          : 50px;
+  line-height     : 50px;
+  border-radius   : 50%;
+  position        : absolute;
+  top             : 30%;
+  font-size       : 20px;
+  color           : #fff;
+  border          : 1px solid #ddd;
+  text-align      : center;
+}
+
+.owl-carousel .owl-prev {
+  left: -20px;
+}
+
+.owl-carousel .owl-next {
+  right: -20px;
+}
+
+/*============= SOCKET =============*/
+.socket {
+  background-color: #383838;
+}
+
+.socket p {
+  font-size: .8rem;
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .banner .judul {
+    font-size: 47px;
+    color    : #343434;
+  }
+
+  .banner .desc {
+    font-size: .9rem;
+    color    : #343434;
+  }
+
+  .maps {
+    width        : 440px;
+    height       : 250px;
+    border       : 0;
+    border-radius: 5px;
+  }
+}
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+
+  /*============= Navbar =============*/
+
+  .nav-border {
+    margin-top   : 13px;
+    margin-left  : 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-item .product {
+    margin-top : -12px;
+    margin-left: 1rem;
+  }
+
+  .hidden-logo {
+    display     : inline;
+    width       : 60px;
+    margin-right: 22rem;
+  }
+
+  .login {
+    margin-left: 1.2rem;
+  }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .text-block {
+    top          : 40px;
+    left         : 10px;
+    padding-left : 20px;
+    padding-right: 20px;
+  }
+
+  .banner .judul {
+    font-size: 32px;
+    color    : #343434;
+  }
+
+  .banner .desc {
+    font-size: .8rem;
+    color    : #343434;
+  }
+
+  .maps {
+    width        : 300px;
+    height       : 250px;
+    border       : 0;
+    border-radius: 5px;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  /*============= Footer =============*/
+
+  .address {
+    padding-left: 1rem;
+  }
+
+  .testimoni {
+    text-align    : center;
+    padding-bottom: .8rem;
+  }
+
+  .maps {
+    margin-top: 3.6rem;
+  }
+
+  /*============= Socket =============*/
+
+  .socket p {
+    margin-top: 1rem;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  /*============= Navbar =============*/
+
+  .img-logo {
+    display: none;
+  }
+
+  .hidden-logo {
+    display     : inline;
+    width       : 60px;
+    margin-right: 10rem;
+  }
+
+  .nav-border {
+    margin-top   : 13px;
+    margin-left  : 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-item .product {
+    margin-top : -12px;
+    margin-left: 1rem;
+  }
+
+  .login {
+    margin-left: 1.2rem;
+  }
+
+  /*============= Banner =============*/
+
+  .banner img {
+    margin-top: 22rem;
+  }
+
+  .banner {
+    background-color: #F6F7F2;
+  }
+
+  .banner .judul {
+    font-size    : 2rem;
+    color        : #343434;
+    padding-left : 1rem;
+    padding-right: 1rem;
+    padding-top  : 4rem;
+  }
+
+  .banner .desc {
+    font-size: .8rem;
+    color    : #343434;
+  }
+
+  .maps {
+    width        : 300px;
+    height       : 250px;
+    border       : 0;
+    border-radius: 5px;
+  }
+
+  /*============= Daftar Keripik =============*/
+
+  .judul-keripik-1 {
+    padding-left : 2rem;
+    padding-right: 2rem;
+    text-align   : center;
+  }
+
+  .deskripsi-keripik-1 {
+    padding-top  : 1rem;
+    padding-left : 2rem;
+    padding-right: 2rem;
+  }
+
+  .judul-keripik-2 {
+    padding-left : 2rem;
+    padding-right: 2rem;
+    text-align   : center;
+  }
+
+  .deskripsi-keripik-2 {
+    padding-top  : 1rem;
+    padding-left : 2rem;
+    padding-right: 2rem;
+  }
+
+  /*============= Footer =============*/
+
+  .address {
+    padding-left: 1rem;
+  }
+
+  .testimoni {
+    text-align    : center;
+    padding-bottom: .8rem;
+  }
+
+  /*============= Socket =============*/
+
+  .socket p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left : 0px !important;
+  margin-right: 0px !important;
+}
