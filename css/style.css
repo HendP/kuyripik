@@ -360,6 +360,7 @@ footer p {
   .banner .judul {
     font-size    : 2rem;
     color        : #343434;
+    margin-left  : -1rem;
     padding-left : 1rem;
     padding-right: 1rem;
     padding-top  : 4rem;
@@ -407,6 +408,10 @@ footer p {
 
   .address {
     padding-left: 1rem;
+  }
+
+  .maps {
+    margin-top: 0;
   }
 
   .testimoni {
