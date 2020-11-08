@@ -1,12 +1,17 @@
-/*-- Body Reset --*/
+/* Font Family */
+@font-face {
+  font-family: workSans;
+  src        : url(../fonts/work-sans/WorkSans-Medium.ttf);
+}
+
+/*-- Body Preset --*/
 * {
   box-sizing: border-box;
 }
 
 body {
   overflow-x : hidden;
-  font-family: 'Montserrat', sans-serif;
-  color      : #616971;
+  font-family: workSans, sans-serif;
 }
 
 /*============= Navigation =============*/
@@ -14,45 +19,26 @@ body {
 .navbar {
   min-height      : 100px;
   background-color: white;
+
 }
 
-.navbar-nav .nav-item {
-  font-size  : 12px;
-  padding-top: 10px;
+.nav-item {
+  padding: .4rem;
 }
 
-.nav-border {
-  margin-top   : 13px;
-  width        : 100px;
-  height       : 30px;
-  border       : 1px solid #333333;
-  border-radius: 15px;
+.nav-link {
+  font-size: 14px;
+  color    : #333333 !important;
 }
 
-.nav-item .product {
-  margin-top : -12px;
-  margin-left: 8px;
-}
-
-.nav-item .hotline {
-  padding-top: 4px;
-  line-height: 1;
-  margin-left: 20px;
-}
-
-.nav-item .follow-ig {
-  padding-top: 4px;
-  line-height: 1;
-  margin-left: 20px;
-}
-
-.nav-item .follow-ig img {
-  width: 15px;
+.nav-link.active,
+.nav-link:hover {
+  color: #4e4e4e !important;
 }
 
 .img-logo {
-  width      : 60px;
-  margin-left: -85px;
+  width      : 70px;
+  margin-left: -2rem;
 }
 
 .hidden-logo {
@@ -60,11 +46,11 @@ body {
 }
 
 .login {
-  color: #333333;
+  color: #333333 !important;
 }
 
 .login:hover {
-  color          : #333333;
+  color          : #333333 !important;
   text-decoration: none;
 }
 
@@ -84,13 +70,13 @@ body {
 }
 
 .banner .judul {
-  font-size: 57px;
-  color    : #343434;
+  font-size: 56px;
+  color    : #333333;
 }
 
 .banner .desc {
   font-size: 1rem;
-  color    : #343434;
+  color    : #333333;
 }
 
 /*============= Daftar Keripik =============*/
@@ -151,7 +137,7 @@ body {
 /*============= FOOTER =============*/
 
 footer {
-  background-color: #383838;
+  background-color: #fafafa;
   padding         : 1rem 2rem 3rem;
 }
 
@@ -163,50 +149,94 @@ footer img {
 /* Maps */
 .maps {
   width        : 500px;
-  height       : 250px;
+  height       : 280px;
   border       : 0;
   border-radius: 5px;
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: 14px;
 }
 
-.fakeimg {
-  height    : 200px;
-  background: #8ECAE6;
+.address {
+  margin-left   : -.4rem;
+  font-size     : 14px;
+  line-height   : 1rem;
+  text-align    : left;
+  letter-spacing: 0.14px;
+  color         : #333333;
 }
 
-.owl-carousel .owl-next,
-.owl-carousel .owl-prev {
-  background-color: #457B9D;
-  width           : 50px;
-  height          : 50px;
-  line-height     : 50px;
-  border-radius   : 50%;
-  position        : absolute;
-  top             : 30%;
-  font-size       : 20px;
-  color           : #fff;
-  border          : 1px solid #ddd;
-  text-align      : center;
+.akun-fitur a {
+  color          : #333333;
+  text-decoration: none;
 }
 
-.owl-carousel .owl-prev {
-  left: -20px;
+.akun-fitur a:hover {
+  color: #4e4e4e;
 }
 
-.owl-carousel .owl-next {
-  right: -20px;
+.daftar-pembayaran {
+  margin-top : -1.4rem;
+  margin-left: -.8rem;
+}
+
+.img-pembayaran-ovo {
+  width       : 4rem;
+  height      : auto;
+  padding-left: .8rem;
+}
+
+.img-pembayaran-gopay {
+  width       : 6rem;
+  height      : auto;
+  padding-left: .8rem;
+}
+
+.img-pembayaran-bca {
+  width       : 4rem;
+  height      : auto;
+  padding-left: .8rem;
+}
+
+.daftar-kontak .phone{
+  margin-top: -1rem;
+}
+
+.daftar-kontak .instagram{
+  margin-top: -3rem;
+}
+
+.kontak-logo {
+  width : 1.2rem;
+  height: auto;
+}
+
+.daftar-pengiriman {
+  margin-top : -1.4rem;
+  margin-left: -.8rem;
+}
+
+.img-pengiriman-gosend{
+  width       : 7rem;
+  height      : auto;
+  padding-left: .8rem;
+}
+
+.img-pengiriman-grabexpress {
+  width       : 8.5rem;
+  height      : auto;
+  padding-left: .8rem;
 }
 
 /*============= SOCKET =============*/
 .socket {
-  background-color: #383838;
+  background-color: #fafafa;
 }
 
 .socket p {
   font-size: .8rem;
+  color: #333333;
 }
 
 /*============= MEDIA QUERIES =============*/

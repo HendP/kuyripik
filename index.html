@@ -19,7 +19,7 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+	<nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top shadow-sm">
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
 			aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,14 @@
 
 		<div class="collapse navbar-collapse" id="navbarToggle">
 			<ul class="navbar-nav">
-				<li class="nav-item nav-border active">
-					<a class="nav-link product" href="#"><b>PRODUCT</b><span class="sr-only">(current)</span></a>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Product<span class="sr-only"></span></a>
 				</li>
 				<li class="nav-item">
-					<p class="hotline">Hotline <br>
-						<b>+62 8123 4567 8901</b></p>
+					<a class="nav-link" href="#">Cek Transaksi<span class="sr-only"></span></a>
 				</li>
 				<li class="nav-item">
-					<p class="follow-ig">Follow <br>
-						<img src="img/logo-instagram.png" alt="IG"><b>Kuyripik</b></p>
+					<a class="nav-link" href="#">Tentang Kami<span class="sr-only"></span></a>
 				</li>
 			</ul>
 
@@ -47,9 +45,16 @@
 				<a href="#" class="navbar-brand text-center"></a><img src="img/logo-big.png" class="img-fluid img-logo"
 					alt="Logo Kuyripik"></a>
 			</div>
-			<div>
-				<a class="login" href="#">Login</a>
-			</div>
+
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Daftar<span class="sr-only"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Masuk<span class="sr-only"></span></a>
+				</li>
+			</ul>
+
 		</div>
 	</nav>
 
@@ -59,7 +64,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-xl-6 col-sm-7">
-						<h1 class="judul">TEMUKAN <b>KRIPIK</b> <br>YANG <b>KAMU MAU</b></h1>
+						<h1 class="judul">TEMUKAN <b>KERIPIK</b> <br>YANG <b>KAMU MAU</b></h1>
 						<p class="desc text-justify pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 							do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 							nostrud
@@ -123,33 +128,56 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 pt-4 pb-0">
-						<div class="row">
-							<div class="col-1 px-0 mx-0">
-								<i class="fas fa-map-marker-alt fa-2x text-white pt-1"></i>
-							</div>
-							<div class="col-11 px-0 mx-0">
-								<p class="text-white address">Jl. Kademangan No.25, Setiamanah, Kec. Cimahi Tengah, Kota
-									Cimahi,
-									Jawa
-									Barat 40524</p>
-							</div>
-						</div>
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.5644542610166!2d107.53414845791316!3d-6.875154698757943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e45b9b13c81f%3A0x3bd68022e72210ed!2sJl.%20Kademangan%20No.25%2C%20Setiamanah%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040524!5e0!3m2!1sid!2sid!4v1604151992052!5m2!1sid!2sid"
 							frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class="maps"></iframe>
 					</div>
 					<div class="col-sm-6 pt-4 pb-0">
-						<p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis
-							expedita veritatis
-							corporis, incidunt nemo, tempora iusto necessitatibus veniam voluptas est enim facere sunt
-							perspiciatis eaque doloremque, tenetur neque soluta!</p>
-						<h4 class="font-weight-bold text-white testimoni">Kata Mereka</h4>
-						<div class="owl-carousel owl-theme">
-							<div class="fakeimg">Fake Image</div>
-							<div class="fakeimg">Fake Image</div>
-							<div class="fakeimg">Fake Image</div>
-							<div class="fakeimg">Fake Image</div>
-							<div class="fakeimg">Fake Image</div>
+						<div class="row">
+							<div class="col-6 px-0 mx-0">
+								<h4><b>Akun Saya</b></h4>
+								<div class="akun-fitur">
+									<a href="#">Riwayat Pembayaran</a><br>
+									<a href="#">Konfirmasi Pembayaran</a>
+								</div>
+							</div>
+							<div class="col-6 px-0 mx-0">
+								<h4><b>Metode Pembayaran</b></h4>
+								<div class="daftar-pembayaran">
+									<img src="img/ovo@3x.png" alt="OVO" class="img-pembayaran-ovo">
+									<img src="img/gopay@3x.png" alt="Gopay" class="img-pembayaran-gopay">
+									<img src="img/bca@3x.png" alt="BCA" class="img-pembayaran-bca">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6 px-0 mx-0">
+								<br>
+								<h4><b>Kontak</b></h4>
+								<div class="daftar-kontak">
+									<p class="phone"><img src="img/phone@3x.png" alt="phone" class="kontak-logo"> +62 821 23456789</p>
+									<p class="instagram pr-1"><img src="img/logo-instagram.png" alt="IG" class="kontak-logo">  kuyripik</p>
+								</div>
+							</div>
+							<div class="col-6 px-0 mx-0">
+								<br>
+								<h4><b>Jasa Pengiriman</b></h4>
+								<div class="daftar-pengiriman">
+									<img src="img/Gosend@3x.png" alt="gosend" class="img-pengiriman-gosend">
+									<img src="img/grabexpress@3x.png" alt="grabexpress" class="img-pengiriman-grabexpress">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-1 px-0 mx-0">
+								<i class="fas fa-map-marker-alt fa-2x pt-1"></i>
+							</div>
+							<div class="col-10 px-0 mx-0">
+								<p class="address">Jl. Kademangan No.25, Setiamanah, Kec. Cimahi Tengah, Kota
+									Cimahi,
+									Jawa
+									Barat 40524</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -158,7 +186,7 @@
 		<!-- End Footer -->
 
 		<!-- Start Socket -->
-		<div class="socket text-light text-left pt-2 pb-4">
+		<div class="socket pt-2 pb-4">
 			<div class="container">
 				<p class="pl-3">Copyright 2020 Kuyripik. All right reserved.</p>
 			</div>
@@ -175,8 +203,7 @@
 		<script src="js/popper.min.js"></script>
 		<!-- Font Awesome -->
 		<script src="js/all.min.js"></script>
-		<!-- Owl Carousel -->
-		<script src="js/owl.carousel.min.js"></script>
+		<!-- Custom Script -->
 		<script src="js/custom.js"></script>
 		<!-- End Script Source Files -->
 </body>
