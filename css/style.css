@@ -199,11 +199,11 @@ footer p {
   padding-left: .8rem;
 }
 
-.daftar-kontak .phone{
+.daftar-kontak .phone {
   margin-top: -1rem;
 }
 
-.daftar-kontak .instagram{
+.daftar-kontak .instagram {
   margin-top: -3rem;
 }
 
@@ -217,7 +217,7 @@ footer p {
   margin-left: -.8rem;
 }
 
-.img-pengiriman-gosend{
+.img-pengiriman-gosend {
   width       : 7rem;
   height      : auto;
   padding-left: .8rem;
@@ -236,7 +236,7 @@ footer p {
 
 .socket p {
   font-size: .8rem;
-  color: #333333;
+  color    : #333333;
 }
 
 /*============= MEDIA QUERIES =============*/
@@ -246,6 +246,10 @@ footer p {
 
   .navigation {
     flex-direction: column;
+  }
+
+  .account {
+    margin-top: -1.4rem;
   }
 
   .banner .judul {
@@ -258,12 +262,67 @@ footer p {
     color    : #343434;
   }
 
+  .detail-lain {
+    margin-top: 3rem;
+  }
+
   .maps {
     width        : 440px;
     height       : 250px;
     border       : 0;
-    border-radius: 5px;
+    border-radius: 15px;
   }
+
+  .my-account h4 {
+    font-size: 1rem;
+  }
+
+  .my-account a {
+    font-size: .8rem;
+  }
+
+  .pembayaran h4 {
+    font-size: .9rem;
+  }
+
+  .img-pembayaran-bca {
+    margin-top: -.9rem;
+    width     : 4.5rem;
+  }
+
+  .kontak {
+    margin-top: -1.5rem;
+  }
+
+  .kontak h4 {
+    font-size: 1rem;
+  }
+
+  .kontak p {
+    font-size: .8rem;
+  }
+
+  .kontak-logo {
+    width : 1rem;
+    height: auto;
+  }
+
+  .pengiriman {
+    margin-top: -1.5rem;
+  }
+
+  .pengiriman h4 {
+    font-size: 1rem;
+  }
+
+  .img-pengiriman-gosend {
+    margin-top: 1.8rem;
+  }
+
+  .img-pengiriman-grabexpress {
+    margin-top: -.6rem;
+  }
+
 }
 
 /* Devices under 992px (lg) */
@@ -271,21 +330,10 @@ footer p {
 
   /*============= Navbar =============*/
 
-  .nav-border {
-    margin-top   : 13px;
-    margin-left  : 1.3rem;
-    margin-bottom: 1rem;
-  }
-
-  .nav-item .product {
-    margin-top : -12px;
-    margin-left: 1rem;
-  }
-
   .hidden-logo {
     display     : inline;
-    width       : 60px;
-    margin-right: 22rem;
+    width       : 70px;
+    margin-right: 23rem;
   }
 
   .login {
@@ -358,8 +406,8 @@ footer p {
 
   .hidden-logo {
     display     : inline;
-    width       : 60px;
-    margin-right: 10rem;
+    width       : 70px;
+    margin-right: 18rem;
   }
 
   .nav-border {
