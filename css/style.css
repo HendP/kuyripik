@@ -407,7 +407,7 @@ footer p {
   .hidden-logo {
     display     : inline;
     width       : 70px;
-    margin-right: 18rem;
+    margin-right: 8rem;
   }
 
   .nav-border {
@@ -441,7 +441,7 @@ footer p {
     margin-left  : -1rem;
     padding-left : 1rem;
     padding-right: 1rem;
-    padding-top  : 4rem;
+    padding-top  : 2rem;
   }
 
   .banner .desc {
@@ -490,13 +490,30 @@ footer p {
 
   .maps {
     margin-top: 0;
+    margin-left: -1.5rem;
   }
 
-  .testimoni {
-    text-align    : center;
-    padding-bottom: .8rem;
+  .my-account {
+    margin-top: -3rem;
   }
 
+  .pembayaran {
+    margin-top: 1.4rem;  
+  }
+
+  .img-pembayaran-bca {
+    margin-top: 1.6rem;
+  }
+
+  .img-pengiriman-grabexpress {
+    margin-top: 1.6rem;
+  }
+
+  .address {
+    margin-left: 1rem;
+    margin-right: -1rem;
+    margin-top: -2rem;
+  }
   /*============= Socket =============*/
 
   .socket p {
