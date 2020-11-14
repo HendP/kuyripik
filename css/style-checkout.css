@@ -1,0 +1,85 @@
+@font-face {
+    font-family: workSans-Reguler;
+    src        : url(../fonts/work-sans/WorkSans-Regular.ttf);
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.checkout {
+    margin-top: 8rem;
+}
+
+.radio-pembayaran {
+    font-family  : workSans-Reguler;
+    font-size    : 1rem;
+    font-stretch : normal;
+    font-style   : normal;
+    color        : #333333;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    background-color: #48cae4 !important;
+    border-color    : #48cae4 !important;
+    width           : 100%;
+}
+
+.patas {
+    width      : 48%;
+    margin-left: 1rem;
+    margin-top : 2rem;
+}
+
+.title-keranjang {
+    font-family  : workSans-Reguler;
+    font-size    : 1.5rem;
+    font-weight  : normal;
+    font-stretch : normal;
+    font-style   : normal;
+    margin-bottom: 1rem;
+}
+
+.item-keranjang {
+    width        : 90px;
+    height       : 100px;
+    border-radius: 5%;
+}
+
+.title-item {
+    font-size   : 1.1rem;
+    font-weight : bold;
+    font-stretch: normal;
+    font-style  : normal;
+}
+
+.total-item {
+    font-size   : 1rem;
+    font-family : workSans-Reguler;
+    font-weight : normal;
+    font-stretch: normal;
+    font-style  : normal;
+}
+
+.harga-item {
+    font-family : workSans-Reguler;
+    font-size   : .8rem;
+    font-weight : bold;
+    font-stretch: normal;
+    font-style  : normal;
+    color       : #457b9d;
+    margin-top  : -.5rem;
+}
+
+.subtotal-item {
+    font-family : workSans-Reguler;
+    font-size: .9rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.patas-item {
+    margin-top: -.4rem;
+}

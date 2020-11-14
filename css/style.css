@@ -4,6 +4,11 @@
   src        : url(../fonts/work-sans/WorkSans-Medium.ttf);
 }
 
+@font-face {
+  font-family: workSans-Reguler;
+  src        : url(../fonts/work-sans/WorkSans-Regular.ttf);
+}
+
 /*-- Body Preset --*/
 * {
   box-sizing: border-box;
@@ -146,38 +151,23 @@ footer img {
   margin: 1.5rem auto;
 }
 
-/* Maps */
-.maps {
-  width        : 500px;
-  height       : 280px;
-  border       : 0;
-  border-radius: 5px;
-}
-
 footer p {
   font-size: 14px;
 }
 
-.address {
-  margin-left   : -.4rem;
-  font-size     : 14px;
-  line-height   : 1rem;
-  text-align    : left;
-  letter-spacing: 0.14px;
-  color         : #333333;
+.text-footer {
+  font-family: workSans-Reguler;
+  font-size  : 18px;
+  color      : #333333;
+  opacity    : 0.4;
 }
 
-.akun-fitur a {
-  color          : #333333;
-  text-decoration: none;
-}
-
-.akun-fitur a:hover {
-  color: #4e4e4e;
+.daftar-kontak {
+  margin-top: -.5rem;
 }
 
 .daftar-pembayaran {
-  margin-top : -1.4rem;
+  margin-top : -.5rem;
   margin-left: -.8rem;
 }
 
@@ -199,34 +189,24 @@ footer p {
   padding-left: .8rem;
 }
 
-.daftar-kontak .phone {
-  margin-top: -1rem;
-}
-
-.daftar-kontak .instagram {
-  margin-top: -3rem;
-}
-
 .kontak-logo {
   width : 1.2rem;
   height: auto;
 }
 
 .daftar-pengiriman {
-  margin-top : -1.4rem;
+  margin-top : -.5rem;
   margin-left: -.8rem;
 }
 
 .img-pengiriman-gosend {
-  width       : 7rem;
-  height      : auto;
-  padding-left: .8rem;
+  width : 7rem;
+  height: auto;
 }
 
 .img-pengiriman-grabexpress {
-  width       : 8.5rem;
-  height      : auto;
-  padding-left: .8rem;
+  width : 8.5rem;
+  height: auto;
 }
 
 /*============= SOCKET =============*/
@@ -235,8 +215,11 @@ footer p {
 }
 
 .socket p {
-  font-size: .8rem;
-  color    : #333333;
+  margin-top: 2rem;
+  font-size : 1rem;
+  color     : #333333;
+  opacity   : 0.6;
+  text-align: center;
 }
 
 /*============= MEDIA QUERIES =============*/
@@ -489,7 +472,7 @@ footer p {
   }
 
   .maps {
-    margin-top: 0;
+    margin-top : 0;
     margin-left: -1.5rem;
   }
 
@@ -498,7 +481,7 @@ footer p {
   }
 
   .pembayaran {
-    margin-top: 1.4rem;  
+    margin-top: 1.4rem;
   }
 
   .img-pembayaran-bca {
@@ -510,10 +493,11 @@ footer p {
   }
 
   .address {
-    margin-left: 1rem;
+    margin-left : 1rem;
     margin-right: -1rem;
-    margin-top: -2rem;
+    margin-top  : -2rem;
   }
+
   /*============= Socket =============*/
 
   .socket p {
