@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kuy!ripik</title>
+    <link rel="shortcut icon" href="img/logo-big.png">
+    <!-- Bootstrap 4.5 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-detail.css">
+    <!-- Google Fonts -->
+</head>
+
+<body>
+
+    <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top shadow-sm">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <img src="img/logo-big.png" class="hidden-logo" alt="Logo Kuyripik">
+
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Product<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cek Transaksi<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami<span class="sr-only"></span></a>
+                </li>
+            </ul>
+
+            <div class="mx-auto" style="width: 200px;">
+                <a href="#" class="navbar-brand text-center"></a><img src="img/logo-big.png" class="img-fluid img-logo"
+                    alt="Logo Kuyripik"></a>
+            </div>
+
+            <ul class="navbar-nav account">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Daftar<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Masuk<span class="sr-only"></span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div>
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- Gallery -->
+                <div id="js-gallery" class="gallery">
+
+                    <!--Gallery Hero-->
+                    <div class="gallery__hero">
+                        <a href="" class="gallery__hero-enlarge ir" data-gallery="zoom">Zoom</a>
+
+                        <img
+                            src="https://public-619e3.firebaseapp.com/Product-Gallery/products/normal/product-01_view-01.jpg">
+                    </div>
+                    <!--Gallery Hero-->
+
+                    <!--Gallery Thumbs-->
+                    <div class="gallery__thumbs">
+                        <a href="https://public-619e3.firebaseapp.com/Product-Gallery/products/normal/product-01_view-01.jpg"
+                            data-gallery="thumb" class="is-active">
+                            <img
+                                src="https://public-619e3.firebaseapp.com/Product-Gallery/products/thumb/product-01_view-01.jpg">
+                        </a>
+                        <a href="https://public-619e3.firebaseapp.com/Product-Gallery/products/normal/product-01_view-02.jpg"
+                            data-gallery="thumb">
+                            <img
+                                src="https://public-619e3.firebaseapp.com/Product-Gallery/products/thumb/product-01_view-02.jpg">
+                        </a>
+                        <a href="https://public-619e3.firebaseapp.com/Product-Gallery/products/normal/product-01_view-03.jpg"
+                            data-gallery="thumb">
+                            <img
+                                src="https://public-619e3.firebaseapp.com/Product-Gallery/products/thumb/product-01_view-03.jpg">
+                        </a>
+                        <a href="https://public-619e3.firebaseapp.com/Product-Gallery/products/normal/product-01_view-01.jpg"
+                            data-gallery="thumb">
+                            <img
+                                src="https://public-619e3.firebaseapp.com/Product-Gallery/products/thumb/product-01_view-01.jpg">
+                        </a>
+                    </div>
+                    <!--Gallery Thumbs-->
+
+                </div>
+                <!--.gallery-->
+                <!-- Gallery -->
+            </div>
+            <div class="col-sm-6 detail-produk">
+                <h1 class="title">Kuyripik<br><b>Original</b></h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae et sunt dolore quidem
+                    nobis
+                    itaque necessitatibus officiis sint nisi voluptas dolorum consequatur, voluptate ipsa ipsam
+                    optio a porro doloremque perspiciatis!</p>
+                <hr class="line">
+                <h5>Level : 0</h5>
+                <h5 class="pt-1">Level : 30</h5>
+                <button type="button" class="btn btn-info add-to-cart" data-toggle="modal" data-target="#myModal">Tambah
+                    Ke Keranjang</button>
+            </div>
+        </div>
+        <!--.gallery-->
+        <!-- Gallery -->
+        <hr>
+    </div>
+    <!--.container-->
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5>Mau beli berapa?</h5>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-outline-secondary btn-number" disabled="disabled"
+                                        data-type="minus" data-field="quant[1]">
+                                        <span class="fas fa-minus"></span>
+                                    </button>
+                                </span>
+                                <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1"
+                                    max="100">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-outline-secondary btn-number" data-type="plus"
+                                        data-field="quant[1]">
+                                        <span class="fas fa-plus"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Simpan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Rekomendasi Produk -->
+    <div>
+        <div class="row">
+            <div class="col-sm-12 mx-4">
+                <h5>Produk Lainnya</h5>
+            </div>
+        </div>
+        <div class="container-sm mx-4">
+            <div class="card-deck mb-3" style="width: 40rem;">
+                <div class="card mb-4 shadow-sm card-product">
+                    <img src="img/Group 83.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kuyripik Lada</h5>
+                        <h6 class="card-subtitle harga">Rp 15.000,-</h6>
+                        <p class="card-text desc-keripik">Some quick example text to build on the card title and make up
+                            the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm card-product">
+                    <img src="img/Group 84.png " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kuyripik Asin</h5>
+                        <h6 class="card-subtitle harga">Rp 15.000,-</h6>
+                        <p class="card-text desc-keripik">Some quick example text to build on the card title and make up
+                            the bulk
+                            of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm card-product">
+                    <img src="img/Group 85.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kuyripik Manis</h5>
+                        <h6 class="card-subtitle harga">Rp 15.000,-</h6>
+                        <p class="card-text desc-keripik">Some quick example text to build on the card title and make up
+                            the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Footer -->
+    <footer class="py-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 pt-4 pb-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.5644542610166!2d107.53414845791316!3d-6.875154698757943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e45b9b13c81f%3A0x3bd68022e72210ed!2sJl.%20Kademangan%20No.25%2C%20Setiamanah%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040524!5e0!3m2!1sid!2sid!4v1604151992052!5m2!1sid!2sid"
+                        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class="maps"></iframe>
+                </div>
+                <div class="col-sm-6 pt-4 pb-0 detail-lain">
+                    <div class="row">
+                        <div class="col-sm-6 px-0 mx-0 my-account">
+                            <h4><b>Akun Saya</b></h4>
+                            <div class="akun-fitur">
+                                <a href="#">Riwayat Pembayaran</a><br>
+                                <a href="#">Konfirmasi Pembayaran</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 px-0 mx-0 pembayaran">
+                            <h4><b>Metode Pembayaran</b></h4>
+                            <div class="daftar-pembayaran">
+                                <img src="img/ovo@3x.png" alt="OVO" class="img-pembayaran-ovo">
+                                <img src="img/gopay@3x.png" alt="Gopay" class="img-pembayaran-gopay">
+                                <img src="img/bca@3x.png" alt="BCA" class="img-pembayaran-bca">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 px-0 mx-0 kontak">
+                            <br>
+                            <h4><b>Kontak</b></h4>
+                            <div class="daftar-kontak">
+                                <p class="phone"><img src="img/phone@3x.png" alt="phone" class="kontak-logo">
+                                    +62
+                                    821
+                                    23456789</p>
+                                <p class="instagram pr-1"><img src="img/logo-instagram.png" alt="IG"
+                                        class="kontak-logo"> kuyripik</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 px-0 mx-0 pengiriman">
+                            <br>
+                            <h4><b>Jasa Pengiriman</b></h4>
+                            <div class="daftar-pengiriman">
+                                <img src="img/Gosend@3x.png" alt="gosend" class="img-pengiriman-gosend">
+                                <img src="img/grabexpress@3x.png" alt="grabexpress" class="img-pengiriman-grabexpress">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1 px-0 mx-0">
+                            <i class="fas fa-map-marker-alt fa-2x pt-1"></i>
+                        </div>
+                        <div class="col-sm-10 px-0 mx-0">
+                            <p class="address">Jl. Kademangan No.25, Setiamanah, Kec. Cimahi Tengah, Kota
+                                Cimahi,
+                                Jawa
+                                Barat 40524</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Socket -->
+    <div class="socket pt-2 pb-4">
+        <div class="container">
+            <p class="pl-3">Copyright 2020 Kuyripik. All right reserved.</p>
+        </div>
+    </div>
+    <!-- End Socket -->
+
+    <!-- Script Source Files -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Bootstrap 4.5 JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom Script -->
+    <script src="js/counter.js"></script>
+    <script src="js/custom-detail.js"></script>
+    <!-- End Script Source Files -->
+</body>
+
+</html>
