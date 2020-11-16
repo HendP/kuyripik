@@ -83,3 +83,8 @@ body {
 .patas-item {
     margin-top: -.4rem;
 }
+
+.maps-tujuan {
+    width: 460px;
+    height: 288px;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: workSans-Reguler;
+    src        : url(../fonts/work-sans/WorkSans-Regular.ttf);
+}
+
+body {
+    background-color: #fafafa;
+    font-family     : workSans-Reguler;
+}
+
+.thankyou {
+    margin-top   : 9rem;
+    margin-bottom: 2rem;
+}
+
+.terimakasih {
+    text-transform: uppercase;
+    font-size     : 3rem;
+    font-stretch  : normal;
+    font-style    : normal;
+}
+
+.subjudul {
+    font-size     : 1.2rem;
+    font-weight   : 500;
+    font-stretch  : normal;
+    font-style    : normal;
+    letter-spacing: normal;
+    text-align    : center;
+    text-transform: uppercase;
+    margin-bottom : 1.2rem;
+}
+
+.card-kode {
+    width        : 250px;
+    border-radius: 10px;
+    height       : 50px;
+    box-shadow   : 0 3px 6px 0 rgba(0, 0, 0, 0.44);
+    margin       : 0 auto;
+}
+
+.card-qr {
+    width        : 250px;
+    border-radius: 10px;
+    box-shadow   : 0 3px 6px 0 rgba(0, 0, 0, 0.44);
+    margin       : 0 auto;
+}
+
+.qr-code {
+    width       : 198.5px;
+    height      : 198.5px;
+    margin      : 0 auto;
+    padding-left: .5rem;
+}
+
+.pembeli {
+    font-size   : 1rem;
+    font-weight : bold;
+    font-stretch: normal;
+    font-style  : normal;
+    text-align  : center;
+    margin-top  : 1rem;
+}
+
+#countdown {
+    font-size   : 3rem;
+    text-align  : center;
+    font-stretch: normal;
+    font-style  : normal;
+}
+
+.kode {
+    text-align    : center;
+    text-transform: uppercase;
+    font-stretch  : normal;
+    font-style    : normal;
+    font-weight   : bold;
+    margin-top    : -.6rem;
+}
+
+.guide-pembayaran {
+    margin-top: 1rem;
+    font-size : 1.1rem;
+}
+
+.step-pembayaran {
+    margin-left: -1.2rem;
+}
+
+.pembayaran {
+    margin-top: 5rem;
+}
+
+.nominal-pembayaran {
+    font-size   : 2.8rem;
+    text-align  : center;
+    font-stretch: normal;
+    font-style  : normal;
+}
