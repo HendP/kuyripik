@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-cart.css">
 </head>
 
 <body>
@@ -75,22 +76,17 @@
 		<div class="card">
 			<div class="card-header white-background" id="headingOne">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-4">
-								<button class="btn btn-link btn-block text-left btn-accordion" type="button"
-									data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-									aria-controls="collapseOne">
-									Keranjang Anda
-								</button>
-							</div>
-							<div class="col-8">
-								<div class="total-item"><span class="number-item">32</span></div>
+							<div class="col-sm-4">
+								<div>
+									Keranjang Anda <span class="total-item">32</span>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-6">
-						<button class="btn btn-link btn-block text-right btn-accordion" type="button"
+					<div class="col-sm-6 text-right">
+						<button class="btn btn-link btn-accordion" type="button"
 							data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
 							aria-controls="collapseOne">
 							Tampilkan
@@ -101,13 +97,60 @@
 
 			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 				<div class="card-body">
-					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-					wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-					eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-					assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-					sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-					farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-					labore sustainable VHS.
+					<ul class="row list-unstyled pl-4">
+						<li class="col-sm-2">
+							<div class="item-cart">
+								<a class="close" href="#">×</a>
+								<img src="img/Group 82.png" class="img-item">
+								<div class="keterangan-item">
+									<p>Jumlah : 8 bungkus</p>
+									<p>Subtotal : Rp.96.000,00</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-sm-2">
+							<div class="item-cart"> <a class="close" href="#">×</a>
+								<img src="img/Group 83.png" class="img-item">
+								<div class="keterangan-item">
+									<p>Jumlah : 8 bungkus</p>
+									<p>Subtotal : Rp.96.000,00</p>
+									<p>Level : 3</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-sm-2">
+							<div class="item-cart"> <a class="close" href="#">×</a>
+								<img src="img/Group 84.png" class="img-item">
+								<div class="keterangan-item">
+									<p>Jumlah : 8 bungkus</p>
+									<p>Subtotal : Rp.96.000,00</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-sm-2">
+							<div class="item-cart"> <a class="close" href="#">×</a>
+								<img src="img/Group 85.png" class="img-item">
+								<div class="keterangan-item">
+									<p>Jumlah : 8 bungkus</p>
+									<p>Subtotal : Rp.96.000,00</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="card-footer card-bawah">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-sm-4">
+										Total : Rp <span>384.000,00</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 text-right">
+							<button type="button" class="btn btn-beli">Beli</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -236,6 +279,8 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
+	<!-- custom -->
+	<script src="js/cards.js"></script>
 	<!-- End Script Source Files -->
 </body>
 

@@ -97,3 +97,36 @@ body {
     font-stretch: normal;
     font-style  : normal;
 }
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+    .guide-pembayaran {
+        font-size: .9rem;
+    }
+
+    .subjudul {
+        font-size: 1rem;
+    }
+
+    .pembayaran {
+        margin-top: 2.6rem;
+    }
+
+    .nominal-pembayaran {
+        margin-top: 2.8rem;
+    }
+
+
+}
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+    img .maps-tujuan {
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 767.98px) {}

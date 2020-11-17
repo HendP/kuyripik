@@ -74,10 +74,10 @@ body {
 
 .subtotal-item {
     font-family : workSans-Reguler;
-    font-size: .9rem;
-    font-weight: normal;
+    font-size   : .9rem;
+    font-weight : normal;
     font-stretch: normal;
-    font-style: normal;
+    font-style  : normal;
 }
 
 .patas-item {
@@ -85,6 +85,19 @@ body {
 }
 
 .maps-tujuan {
-    width: 460px;
+    width : 460px;
     height: 288px;
 }
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {}
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+    #alamat {
+        margin-bottom: 1.5rem;
+    }
+}
+@media (max-width: 767.98px) {}

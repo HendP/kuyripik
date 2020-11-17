@@ -84,31 +84,6 @@ body {
   color    : #333333;
 }
 
-/*============= Cart =============*/
-.white-background {
-  background-color: #ffffff;
-  border          : 0;
-}
-
-.btn-accordion {
-  text-decoration: none;
-  color          : #333333;
-}
-
-.total-item {
-  background-color: #333333;
-  color: white;
-  border-radius: 5px;
-  width: 30px;
-  margin-top: 6px;
-  margin-left: -45px;
-}
-
-.number-item {
-  padding-left: 5px;
-}
-
-
 /*============= Daftar Keripik =============*/
 
 

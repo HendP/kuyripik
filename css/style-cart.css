@@ -1,0 +1,49 @@
+/*============= Cart =============*/
+.white-background {
+  background-color: #ffffff;
+  border          : 0;
+}
+
+.btn-accordion {
+  text-decoration: none;
+  color          : #333333;
+}
+
+.total-item {
+  background-color: #333333;
+  color: white;
+  border-radius: 10%;
+  margin-left: .5rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+.item-cart {
+  width: 10rem;
+}
+
+.img-item {
+  width: 8rem;
+}
+
+.keterangan-item {
+  font-size   : 12px;
+  font-stretch: normal;
+  font-style  : normal;
+  line-height: 0.2;
+  margin-top: 1rem;
+}
+
+.card-bawah {
+  background-color: white;
+}
+
+.btn-beli {
+  background-color: #f7a344;
+  width: 108px;
+  color: white;
+}
+
+.btn-beli:hover {
+  color: white;
+}
